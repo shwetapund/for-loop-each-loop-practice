@@ -22,11 +22,12 @@ student.forEach((item, index)=>{
 })
 */
 
-const student= ["sam", "ram", "shyam", "hari"]
+const student = ["sam", "ram", "shyam", "hari"]
+
 
 
 student.forEach((student, index)=>{
-    console.log("Sending email to " + student)
+    console.log("sending email to " + student)
 })
 
-sendEmail("Sayli", -1)
+sendemail("sayli", -1)
